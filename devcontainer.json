@@ -1,0 +1,9 @@
+{
+  "name": "Flutter Web Environment",
+  "image": "mcr.microsoft.com/vscode/devcontainers/dart:latest",
+  "features": {
+    "ghcr.io/devcontainers/features/flutter:1": {}
+  },
+  "forwardPorts": [3000],
+  "postCreateCommand": "flutter pub get && flutter config --enable-web"
+}
